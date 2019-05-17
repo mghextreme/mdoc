@@ -1,0 +1,3 @@
+# Exceções
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer maximus non urna vitae maximus. Sed dapibus egestas consequat. Nulla quis augue urna. Etiam cursus a eros vel egestas. Aliquam et tellus quis diam venenatis pretium a id ligula. Curabitur arcu lorem, rutrum et tristique a, tristique sed leo. Etiam quis lacus eget ligula dignissim posuere. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed maximus risus vitae orci pulvinar faucibus. Sed tempor eleifend magna in pellentesque. Nunc sapien mauris, porttitor sit amet velit et, ultrices lobortis diam.

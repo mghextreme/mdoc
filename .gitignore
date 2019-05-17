@@ -1,0 +1,9 @@
+# Code
+
+code/**/[Bb]in
+code/**/[Oo]bj
+
+# Web
+
+web/node_modules
+web/package-lock\.json

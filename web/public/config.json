@@ -1,0 +1,21 @@
+{
+    "info": {
+        "title": "My Document",
+        "subtitle": "My Title",
+        "version": "v1.0",
+        "authors": [
+            "Matias Guiomar Henschel"
+        ]
+    },
+    "parts": {
+        "description": {
+            "title": "Description",
+            "subtitle": "Prepare to be stunned",
+            "files": [ "description.md", "summary.md" ]
+        },
+        "conclusion": {
+            "title": "Conclusion",
+            "files": [ "conclusion.md" ]
+        }
+    }
+}
