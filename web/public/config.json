@@ -11,7 +11,13 @@
         "description": {
             "title": "Description",
             "subtitle": "Prepare to be stunned",
-            "files": [ "description.md", "summary.md" ]
+            "files": [ "description.md", "summary.md" ],
+            "subparts": {
+                "subitem": {
+                    "title": "Sub-item",
+                    "files": [ "summary.md" ]
+                }
+            }
         },
         "conclusion": {
             "title": "Conclusion",
