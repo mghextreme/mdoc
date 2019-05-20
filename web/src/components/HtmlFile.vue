@@ -1,12 +1,12 @@
 <template>
-  <div class="markdown-file content"></div>
+  <div class="html-file content"></div>
 </template>
 
 <script>
-import markdownIntoHtml from 'markdown-into-html';
+import $ from 'jquery';
 
 export default {
-  name: 'MarkdownFile',
+  name: 'HtmlFile',
   props: {
     file: String
   },
@@ -22,23 +22,16 @@ export default {
     }
   },
   methods: {
-    loadContent: async function () {
-      var htmlContent = await markdownIntoHtml({
-        url: this.pageUrl + this.filePath
-      })
-      this.$el.innerHTML = htmlContent
+    loadContent: function () {
+      $(this.$el).load(this.pageUrl + this.filePath)
     }
   },
-  created: function () {
+  mounted: function () {
     this.loadContent()
   }
 }
 </script>
 
 <style lang="scss">
-.markdown-file {
-  h1:first-of-type {
-    display: none;
-  }
-}
+
 </style>
